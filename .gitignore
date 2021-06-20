@@ -1,0 +1,10 @@
+moc_*
+*.o
+*.autosave
+ui_*
+*~
+*.user
+review
+Makefile
+*.a
+
