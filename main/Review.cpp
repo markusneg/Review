@@ -441,6 +441,7 @@ void Review::resetFilterPrototypes()
     m_filterPrototypes.push_back((new tUnaryFilter<UnaryOperation::Max>())->getOwnership());
     m_filterPrototypes.push_back((new tUnaryFilter<UnaryOperation::Abs>())->getOwnership());
     m_filterPrototypes.push_back((new tUnaryFilter<UnaryOperation::VectorLength>())->getOwnership());
+    m_filterPrototypes.push_back((new tUnaryFilter<UnaryOperation::Log>())->getOwnership());
     m_filterPrototypes.push_back((new tUnaryFilter<UnaryOperation::Variance>())->getOwnership());
     m_filterPrototypes.push_back((new tUnaryFilter<UnaryOperation::SmoothFourier>())->getOwnership());
     //m_filterPrototypes.push_back((new tUnaryFilter<UnaryOperation::SmoothSG>())->getOwnership());

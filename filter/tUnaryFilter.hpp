@@ -21,6 +21,7 @@ namespace UnaryOperation
     struct Max;
     struct Abs;
     struct VectorLength;
+    struct Log;
     struct SmoothFourier;
     struct SmoothSG;
     struct Autoscale;

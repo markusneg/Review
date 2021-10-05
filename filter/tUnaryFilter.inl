@@ -94,6 +94,20 @@ namespace UnaryOperation
         UI()
     };
 
+    struct Log
+    {
+        NAME("Logarithm")
+        FUNCTION
+        (
+            if(log10.value())
+                return static_cast<arma::mat>(arma::log10(rhs));
+            else
+                return static_cast<arma::mat>(arma::log(rhs));
+        )
+        UI(layout->addWidget(new QLabel(QObject::tr("log10"))); layout->addWidget(log10.widget()); SETTING(log10))
+        tSetting<bool> log10 = false;
+    };
+
     struct SmoothFourier
     {
         NAME("Smooth (Fourier)")

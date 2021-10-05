@@ -112,6 +112,7 @@ template class tUnaryFilter<UnaryOperation::Min>;
 template class tUnaryFilter<UnaryOperation::Max>;
 template class tUnaryFilter<UnaryOperation::Abs>;
 template class tUnaryFilter<UnaryOperation::VectorLength>;
+template class tUnaryFilter<UnaryOperation::Log>;
 template class tUnaryFilter<UnaryOperation::SmoothFourier>;
 //template class tUnaryFilter<UnaryOperation::SmoothSG>;
 template class tUnaryFilter<UnaryOperation::Autoscale>;
